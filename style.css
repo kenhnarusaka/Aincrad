@@ -18,7 +18,7 @@ body
 {
     position: relative;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr;
     grid-gap: 20px;
     width: 800px;
     height: 500px;
@@ -47,39 +47,39 @@ body
 }
 .container:has(.one:hover)
 {
-    grid-template-columns: 2fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
+    grid-template-columns: 2fr 0.8fr 0.8fr 0.8fr 0.8fr 0.8fr 0.8fr 0.8fr 0.8fr;
 }
 .container:has(.two:hover)
 {
-    grid-template-columns:  0.5fr 2fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
+    grid-template-columns:  0.8fr 2fr 0.8fr 0.8fr 0.8fr 0.8fr 0.8fr 0.8fr 0.8fr;
 }
 .container:has(.three:hover)
 {
-    grid-template-columns:  0.5fr 0.5fr 2fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
+    grid-template-columns:  0.8fr 0.8fr 2fr 0.8fr 0.8fr 0.8fr 0.8fr 0.8fr 0.8fr;
 }
 .container:has(.four:hover)
 {
-    grid-template-columns:  0.5fr 0.5fr  0.5fr 2fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
+    grid-template-columns:  0.8fr 0.8fr  0.8fr 2fr 0.8fr 0.8fr 0.8fr 0.8fr 0.8fr;
 }
 .container:has(.five:hover)
 {
-    grid-template-columns:  0.5fr 0.5fr  0.5fr  0.5fr 2fr 0.5fr 0.5fr 0.5fr 0.5fr;
+    grid-template-columns:  0.8fr 0.8fr  0.8fr  0.8fr 2fr 0.8fr 0.8fr 0.8fr 0.8fr;
 }
 .container:has(.six:hover)
 {
-    grid-template-columns:  0.5fr 0.5fr  0.5fr  0.5fr 0.5fr 2fr 0.5fr 0.5fr 0.5fr;
+    grid-template-columns:  0.8fr 0.8fr  0.8fr  0.8fr 0.8fr 2fr 0.8fr 0.8fr 0.8fr;
 }
 .container:has(.seven:hover)
 {
-    grid-template-columns:  0.5fr 0.5fr  0.5fr  0.5fr 0.5fr  0.5fr 2fr 0.5fr 0.5fr;
+    grid-template-columns:  0.8fr 0.8fr  0.8fr  0.8fr 0.8fr  0.8fr 2fr 0.8fr 0.8fr;
 }
 .container:has(.eight:hover)
 {
-    grid-template-columns:  0.5fr 0.5fr  0.5fr  0.5fr 0.5fr  0.5fr 0.5fr 2fr 0.5fr;
+    grid-template-columns:  0.8fr 0.8fr  0.8fr  0.8fr 0.8fr  0.8fr 0.8fr 2fr 0.8fr;
 }
 .container:has(.nine:hover)
 {
-    grid-template-columns:  0.5fr 0.5fr  0.5fr  0.5fr 0.5fr  0.5fr 0.5fr 0.5fr 2fr; 
+    grid-template-columns:  0.8fr 0.8fr  0.8fr  0.8fr 0.8fr  0.8fr 0.8fr 0.8fr 2fr; 
 }
 .container .box::before
 {
