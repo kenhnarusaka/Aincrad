@@ -1,2 +1,2 @@
 # Aincrad
-Sword Art Online (Japanese: ソードアート・オンライン, Hepburn: Sōdo Āto Onrain) / Instagram: @notyoursyuuki
+Sword Art Online (Japanese: ソードアート・オンライン, Hepburn: Sōdo Āto Onrain) / Instagram: @kenhnarusaka
